@@ -1,4 +1,4 @@
-# T4wroot
+# Dal
 
 **Systems & Network Infrastructure Engineer**  
 Specializing in Low-Latency Protocols, User-Space Networking, and Distributed Proxy Architectures.
@@ -29,17 +29,17 @@ Specializing in Low-Latency Protocols, User-Space Networking, and Distributed Pr
 
 ### ⚡ Featured Implementations
 
-#### [REX — Remote EXecution Protocol](https://github.com/T4wroot/rex)
+#### [REX — Remote EXecution Protocol](https://github.com/dalroot/rex)
 > Ultra-fast, zero-overhead agent-to-server infrastructure control protocol.
 - Engineered as an application-layer protocol running over persistent WebSockets, eliminating the latency and memory overhead of pseudo-terminal (PTY/TTY) emulation.
 - Achieves sub-5ms deterministic command execution latency with an integrated 3-tier cryptographic privilege validation model.
 
-#### [Hawal (هه‌واڵ)](https://github.com/T4wroot/hawal)
+#### [Hawal (هه‌واڵ)](https://github.com/dalroot/hawal)
 > Zero-dependency tunnel management panel & high-throughput multiplexing core.
 - Architected for resilient, censorship-resistant networking with native connection pooling and multiplexing.
 - Implemented with zero external dependencies to ensure minimal attack surface and deterministic runtime performance on minimal VPS footprints.
 
-#### [Roozaneh Client & Core Platform](https://github.com/T4wroot/roozaneh-app)
+#### [Roozaneh Client & Core Platform](https://github.com/dalroot/roozaneh-app)
 > Cross-platform, high-throughput network tunnel client.
 - Orchestrates headless `sing-box` cores through local loopback interfaces with automated lifecycle monitoring and error recovery.
 - Implements direct Android `VpnService` integration for transparent Layer 3 full-system TUN routing without root privileges.
@@ -49,6 +49,6 @@ Specializing in Low-Latency Protocols, User-Space Networking, and Distributed Pr
 > Multi-platform environment recovery & state sanitation utility for developer runtimes (115+ GitHub Stars).
 - Cross-platform automation (PowerShell/Bash) for cleaning orphaned state, managing browser/IDE session databases, and automated environment resets.
 
-#### [Agentic SEO Architecture](https://github.com/T4wroot/agentic-seo)
+#### [Agentic SEO Architecture](https://github.com/dalroot/agentic-seo)
 > Modular multi-agent automation ecosystem for large-scale technical workflows.
 - Contains 16 operational sub-skills, 10 deterministic agent personas, 89 execution scripts, and 160+ structured tool-calling specifications.
