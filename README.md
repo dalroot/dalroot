@@ -45,6 +45,10 @@ Specializing in Low-Latency Protocols, User-Space Networking, and Distributed Pr
 - Implements direct Android `VpnService` integration for transparent Layer 3 full-system TUN routing without root privileges.
 - Resolves upstream race conditions across local gRPC IPC channels and network state transitions.
 
+#### [Antigravity Cleaner](https://github.com/tawroot/antigravity-cleaner)
+> Multi-platform environment recovery & state sanitation utility for developer runtimes (115+ GitHub Stars).
+- Cross-platform automation (PowerShell/Bash) for cleaning orphaned state, managing browser/IDE session databases, and automated environment resets.
+
 #### [Agentic SEO Architecture](https://github.com/T4wroot/agentic-seo)
 > Modular multi-agent automation ecosystem for large-scale technical workflows.
 - Contains 16 operational sub-skills, 10 deterministic agent personas, 89 execution scripts, and 160+ structured tool-calling specifications.
