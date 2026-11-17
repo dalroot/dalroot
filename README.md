@@ -81,6 +81,16 @@ I'm a systems & network engineer working at the intersection of network protocol
 
 ---
 
+### 💬 Engineering Philosophy
+
+<div align="center">
+  <img src="./assets/quote.svg" width="100%" alt="Philosophy & Engineering Quote" />
+</div>
+
+<br/>
+
+---
+
 <div align="center">
   <sub>Open protocols • Censorship-resilient networking • Pragmatic systems engineering</sub>
 </div>

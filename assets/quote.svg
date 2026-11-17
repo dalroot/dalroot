@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 135" width="100%" height="135">
+  <defs>
+    <linearGradient id="qGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" rx="12" fill="url(#qGrad)" stroke="#30363D" stroke-width="1.5"/>
+
+  <text x="35" y="42" fill="#38BDF8" font-family="'Fira Code', monospace" font-size="28" font-weight="bold">“</text>
+  <text x="60" y="48" fill="#F0F6FC" font-family="'Fira Code', monospace" font-size="14.5" font-weight="600">Talk is cheap. Show me the code.</text>
+  <text x="60" y="74" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12.5">Simplicity is prerequisite for reliability. Protocols must be lean, deterministic &amp; fast.</text>
+
+  <line x1="60" y1="92" x2="690" y2="92" stroke="#334155" stroke-width="1"/>
+  <text x="690" y="114" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">— Linus Torvalds / Unix Philosophy</text>
+</svg>
