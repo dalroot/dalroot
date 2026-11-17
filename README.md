@@ -7,7 +7,7 @@
 
 <br/>
 
-<!-- Metrics Badges (Native auto-sized, no distortion) -->
+<!-- Metrics Badges -->
 [![Total Downloads](https://img.shields.io/github/downloads/tawroot/antigravity-cleaner/total?style=for-the-badge&logo=github&color=0284c7&label=Total%20Downloads)](https://github.com/tawroot/antigravity-cleaner)
 [![Repo Stars](https://img.shields.io/github/stars/dalroot?style=for-the-badge&logo=github&color=f59e0b&label=Repo%20Stars)](https://github.com/dalroot)
 [![Profile Views](https://komarev.com/ghpvc/?username=dalroot&style=for-the-badge&color=10b981&label=Profile%20Views)](https://github.com/dalroot)
@@ -42,21 +42,9 @@
 
 ### 💻 System & Engineering Profile
 
-```yaml
-dalroot:
-  role: "Systems & Network Infrastructure Engineer"
-  languages: [Go, Python, TypeScript, JavaScript, Dart, Kotlin, Bash]
-  runtimes: [Linux Kernel, Docker, sing-box, Android VpnService, WebSockets]
-  
-  focus_areas:
-    - "Low-latency WebSocket protocols with sub-5ms deterministic execution (REX)"
-    - "Censorship-resilient multiplexing panels & zero-dependency tunnels (Hawal)"
-    - "Cross-platform runtime recovery & offline sanction bypassers (Antigravity Cleaner - 350+ ⭐)"
-    - "Layer-3 transparent TUN clients on Android & desktop (Roozaneh)"
-    - "Multi-agent tool specifications & headless Graph API clients (Agentic SEO, Meta Graph)"
-
-  status: "Shipping pragmatic, high-throughput open-source infrastructure"
-```
+<div align="center">
+  <img src="./assets/terminal.svg" width="100%" alt="System & Engineering Profile" />
+</div>
 
 <br/>
 
