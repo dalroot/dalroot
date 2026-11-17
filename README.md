@@ -1,54 +1,65 @@
-# Dal
+<div align="center">
+
+# Dal (dalroot)
 
 **Systems & Network Infrastructure Engineer**  
-Specializing in Low-Latency Protocols, User-Space Networking, and Distributed Proxy Architectures.
+*Building low-latency network protocols, distributed proxies, and agentic systems.*
+
+<br/>
+
+<!-- Live Metrics & Analytics -->
+<p align="center">
+  <img src="https://img.shields.io/github/downloads/tawroot/antigravity-cleaner/total?style=for-the-badge&logo=github&color=0284c7&label=Total%20Downloads" height="28" alt="Downloads" />&nbsp;
+  <img src="https://img.shields.io/github/stars/dalroot?style=for-the-badge&logo=github&color=f59e0b&label=Repo%20Stars" height="28" alt="Stars" />&nbsp;
+  <img src="https://komarev.com/ghpvc/?username=dalroot&style=for-the-badge&color=10b981&label=Profile%20Views" height="28" alt="Views" />&nbsp;
+  <img src="https://img.shields.io/badge/Public_Repos-30-6366f1?style=for-the-badge&logo=git&logoColor=white" height="28" alt="Repos" />
+</p>
+
+<!-- Socials & Community -->
+<p align="center">
+  <a href="https://x.com/dallsirvan" target="_blank"><img src="https://img.shields.io/badge/Twitter%20(X)-@dallsirvan-000000?style=for-the-badge&logo=x&logoColor=white" height="28" alt="Twitter" /></a>&nbsp;
+  <a href="https://t.me/dallrep" target="_blank"><img src="https://img.shields.io/badge/Telegram-@dallrep-229ED9?style=for-the-badge&logo=telegram&logoColor=white" height="28" alt="Telegram Personal" /></a>&nbsp;
+  <a href="https://t.me/joinroozaneh" target="_blank"><img src="https://img.shields.io/badge/Roozaneh-@joinroozaneh-0088cc?style=for-the-badge&logo=telegram&logoColor=white" height="28" alt="Telegram Roozaneh" /></a>
+</p>
+
+</div>
+
+<br/>
 
 ---
 
-### 🔬 Core Engineering Domains
+### 🛠️ Languages & Technical Arsenal
 
-- **Transport & Proxy Protocols:** In-depth implementation and tuning of VLESS, Reality (TLS 1.3 Camouflage), WireGuard, Cloudflare WARP, and multiplexed tunnels.
-- **Network Stack & Kernel Interfaces:** Virtual network device management (`TUN/TAP`), User-space network stacks (`gVisor netstack`), Packet routing, and NAT configuration.
-- **Low-Latency Systems Design:** Engineering application-layer protocols over persistent full-duplex WebSockets (sub-5ms execution latency) with strict access-control tiers.
-- **Client-to-Core Integration:** Orchestrating background network processes (`sing-box core`), IPC via local loopback sockets, and cross-platform native hooks (`Android VpnService`).
-- **Linux Systems & Reliability:** Kernel parameter optimization (`sysctl`), TCP Congestion Control tuning, MTU path discovery, resource containment (cgroups/OOM mitigation), and CI/CD cross-compilation.
+<div align="center">
 
----
+#### Programming Languages
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=go,python,ts,js,dart,kotlin,bash&theme=dark" alt="Languages" /></a>
 
-### 🛠 Technical Specifications
+<br/>
 
-| Layer / Domain | Technologies & Standards |
-| :--- | :--- |
-| **Networking & Protocols** | VLESS, Reality, sing-box, Xray-core, WireGuard (RFC 8439), gVisor `netstack`, WebSocket, TCP/UDP tuning, MTU path debugging, `iperf3` |
-| **Systems & Linux** | Ubuntu, Linux Kernel (`sysctl`, routing tables, `iptables`/`nftables`, NAT), `systemd`, Process lifecycle management, Memory profiling |
-| **Languages & Runtimes** | Python (Asyncio, Socket programming), Go / Dart (Flutter native channels), Shell / Bash |
-| **Cross-Platform & Client** | Android `VpnService`, Desktop Tray/Daemon integration, Native build toolchains, Local IPC (`gRPC`, Unix Domain Sockets / Loopback) |
-| **Automation & CI/CD** | GitHub Actions (multi-platform native cross-compilation), Docker, Agentic tool execution protocols |
+#### Infrastructure, Runtimes & Toolchains
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linux,docker,flutter,android,githubactions,git,postman&theme=dark" alt="Toolchains" /></a>
+
+</div>
+
+<br/>
 
 ---
 
-### ⚡ Featured Implementations
+### 🌐 Engineering Domains & Real-World Implementations
 
-#### [REX — Remote EXecution Protocol](https://github.com/dalroot/rex)
-> Ultra-fast, zero-overhead agent-to-server infrastructure control protocol.
-- Engineered as an application-layer protocol running over persistent WebSockets, eliminating the latency and memory overhead of pseudo-terminal (PTY/TTY) emulation.
-- Achieves sub-5ms deterministic command execution latency with an integrated 3-tier cryptographic privilege validation model.
+| Domain | Focus & Architecture | Key Implementations |
+| :--- | :--- | :--- |
+| **Low-Latency & Protocols** | WebSocket application-layer protocols (<5ms latency), connection pooling & multiplexing | [REX Protocol](https://github.com/dalroot/rex), [Hawal](https://github.com/dalroot/hawal) |
+| **Developer & System Utilities** | Multi-platform environment sanitation, offline patchers, process-level injection | [Antigravity Cleaner](https://github.com/tawroot/antigravity-cleaner) *(350+ ⭐)* |
+| **Network & Mobile Clients** | Headless `sing-box` orchestration, transparent Layer 3 TUN routing via Android `VpnService` | [Roozaneh Client](https://github.com/dalroot/roozaneh-app), `rozaneh-vpn-client` |
+| **Autonomous AI Infrastructure** | Multi-agent workflows, deterministic tool-calling specifications, headless Graph APIs | [Agentic SEO](https://github.com/dalroot/agentic-seo), [Meta Graph Unofficial](https://github.com/dalroot/meta-graph-unofficial) |
+| **Typography & Agent BiDi** | Universal bidirectional standard and rendering specifications for AI agents | [Agent RTL Fix](https://github.com/dalroot/agent-rtl-fix) |
 
-#### [Hawal (هه‌واڵ)](https://github.com/dalroot/hawal)
-> Zero-dependency tunnel management panel & high-throughput multiplexing core.
-- Architected for resilient, censorship-resistant networking with native connection pooling and multiplexing.
-- Implemented with zero external dependencies to ensure minimal attack surface and deterministic runtime performance on minimal VPS footprints.
+<br/>
 
-#### [Roozaneh Client & Core Platform](https://github.com/dalroot/roozaneh-app)
-> Cross-platform, high-throughput network tunnel client.
-- Orchestrates headless `sing-box` cores through local loopback interfaces with automated lifecycle monitoring and error recovery.
-- Implements direct Android `VpnService` integration for transparent Layer 3 full-system TUN routing without root privileges.
-- Resolves upstream race conditions across local gRPC IPC channels and network state transitions.
+---
 
-#### [Antigravity Cleaner](https://github.com/tawroot/antigravity-cleaner)
-> Multi-platform environment recovery & state sanitation utility for developer runtimes (115+ GitHub Stars).
-- Cross-platform automation (PowerShell/Bash) for cleaning orphaned state, managing browser/IDE session databases, and automated environment resets.
-
-#### [Agentic SEO Architecture](https://github.com/dalroot/agentic-seo)
-> Modular multi-agent automation ecosystem for large-scale technical workflows.
-- Contains 16 operational sub-skills, 10 deterministic agent personas, 89 execution scripts, and 160+ structured tool-calling specifications.
+<div align="center">
+  <sub>Engineered for resilience, high throughput & open-source infrastructure.</sub>
+</div>
