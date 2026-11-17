@@ -50,6 +50,19 @@
 
 ---
 
+### ⚡ Selected Work & Current Focus
+
+I'm a systems & network engineer working at the intersection of network protocols, user-space proxies, and developer automation. Most of my work revolves around engineering censorship-resilient infrastructure (`sing-box`, `TUN/TAP`, `WebSockets`) and open-source tools:
+
+* 🚀 **[Antigravity Cleaner](https://github.com/tawroot/antigravity-cleaner)** *(350+ ★)* — Multi-platform environment sanitation and regional sanction bypasser for developer runtimes.
+* ⚡ **[REX Protocol](https://github.com/dalroot/rex)** — Ultra-fast, zero-overhead infrastructure control protocol running over persistent WebSockets with sub-5ms deterministic latency.
+* 🛡️ **[Hawal](https://github.com/dalroot/hawal)** & **[Roozaneh](https://github.com/dalroot/roozaneh-app)** — Censorship-resistant multiplexing cores and cross-platform clients utilizing transparent Layer-3 TUN routing via Android `VpnService`.
+* 🤖 **[Agentic SEO](https://github.com/dalroot/agentic-seo)** & **[Meta Graph](https://github.com/dalroot/meta-graph-unofficial)** — Autonomous multi-agent skill suites and high-performance unofficial Graph API engines.
+
+<br/>
+
+---
+
 ### 🛠️ Technical Stack & Toolchains
 
 <div align="center">
@@ -60,7 +73,7 @@
 <br/>
 
 #### Platforms, Infrastructure & Tools
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linux,docker,flutter,android,githubactions,git,postman&theme=dark" alt="Toolchains" /></a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linux,docker,flutter,androidstudio,githubactions,git,postman&theme=dark" alt="Toolchains" /></a>
 
 </div>
 
