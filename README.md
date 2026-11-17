@@ -1,6 +1,6 @@
 <div align="center">
 
-# Dal (dalroot)
+# Hi 👋, I'm Dal (dalroot)
 
 **Systems & Network Infrastructure Engineer**  
 *Building low-latency network protocols, distributed proxies, and agentic systems.*
