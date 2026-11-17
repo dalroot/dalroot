@@ -1,84 +1,160 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" width="100%" height="370">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 420" width="100%" height="420">
   <defs>
+    <style>
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes line1 {
+        0%, 15% { opacity: 0; }
+        20%, 100% { opacity: 1; }
+      }
+      @keyframes line2 {
+        0%, 25% { opacity: 0; }
+        30%, 100% { opacity: 1; }
+      }
+      @keyframes line3 {
+        0%, 35% { opacity: 0; }
+        40%, 100% { opacity: 1; }
+      }
+      @keyframes line4 {
+        0%, 45% { opacity: 0; }
+        50%, 100% { opacity: 1; }
+      }
+      @keyframes line5 {
+        0%, 55% { opacity: 0; }
+        60%, 100% { opacity: 1; }
+      }
+      @keyframes cmd2 {
+        0%, 65% { opacity: 0; }
+        70%, 100% { opacity: 1; }
+      }
+      @keyframes out2 {
+        0%, 75% { opacity: 0; }
+        80%, 100% { opacity: 1; }
+      }
+      .cursor { animation: blink 0.8s infinite; }
+      .l1 { animation: line1 8s infinite; }
+      .l2 { animation: line2 8s infinite; }
+      .l3 { animation: line3 8s infinite; }
+      .l4 { animation: line4 8s infinite; }
+      .l5 { animation: line5 8s infinite; }
+      .c2 { animation: cmd2 8s infinite; }
+      .o2 { animation: out2 8s infinite; }
+    </style>
     <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#1e293b"/>
       <stop offset="100%" stop-color="#0f172a"/>
     </linearGradient>
-    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feOffset dx="0" dy="6" result="offset"/>
-      <feComponentTransfer>
-        <feFuncA type="linear" slope="0.3"/>
-      </feComponentTransfer>
-      <feMerge>
-        <feMergeNode/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feOffset dx="0" dy="4" result="offset"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.3"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <!-- Main Terminal Window Frame -->
   <g filter="url(#shadow)">
-    <!-- Body Background -->
-    <rect x="15" y="15" width="770" height="340" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+    <!-- Main Window Frame -->
+    <rect x="15" y="15" width="820" height="390" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
 
-    <!-- Header / Title Bar -->
-    <path d="M 15 27 Q 15 15 27 15 L 773 15 Q 785 15 785 27 L 785 52 L 15 52 Z" fill="url(#headerGrad)"/>
-    <line x1="15" y1="52" x2="785" y2="52" stroke="#30363d" stroke-width="1"/>
+    <!-- Header Bar -->
+    <path d="M 15 27 Q 15 15 27 15 L 823 15 Q 835 15 835 27 L 835 52 L 15 52 Z" fill="url(#headerGrad)"/>
+    <line x1="15" y1="52" x2="835" y2="52" stroke="#30363d" stroke-width="1"/>
 
-    <!-- Mac Window Control Buttons -->
-    <circle cx="40" cy="34" r="6" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5"/>
-    <circle cx="60" cy="34" r="6" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5"/>
-    <circle cx="80" cy="34" r="6" fill="#27c93f" stroke="#1aab29" stroke-width="0.5"/>
+    <!-- Mac/Linux Control Buttons -->
+    <circle cx="42" cy="34" r="6" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5"/>
+    <circle cx="62" cy="34" r="6" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5"/>
+    <circle cx="82" cy="34" r="6" fill="#27c93f" stroke="#1aab29" stroke-width="0.5"/>
 
-    <!-- Terminal Title -->
-    <text x="400" y="38" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">dal@infrastructure: ~ (zsh)</text>
+    <!-- Title -->
+    <text x="425" y="38" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">dalroot@system: ~/projects (zsh)</text>
   </g>
 
-  <!-- Terminal Content Lines -->
-  <g font-family="'Fira Code', 'JetBrains Mono', 'Cascadia Code', Consolas, Monaco, monospace" font-size="13.5" xml:space="preserve">
-    <!-- Prompt line -->
-    <text x="40" y="85">
-      <tspan fill="#38bdf8" font-weight="bold">➜</tspan>
-      <tspan fill="#a78bfa" font-weight="bold"> ~</tspan>
-      <tspan fill="#7dd3fc"> cat profile.yml</tspan>
+  <!-- Terminal Content -->
+  <g font-family="'Fira Code', 'JetBrains Mono', Consolas, Monaco, monospace" font-size="13" xml:space="preserve">
+    <!-- Command 1: ls -la -->
+    <text x="40" y="86">
+      <tspan fill="#38bdf8" font-weight="bold">➜ </tspan>
+      <tspan fill="#a78bfa" font-weight="bold">projects</tspan>
+      <tspan fill="#7dd3fc" font-weight="bold"> git:(main)</tspan>
+      <tspan fill="#f0f6fc"> ls -lh --group-directories-first</tspan>
     </text>
 
-    <!-- Code Body -->
-    <text x="40" y="115">
-      <tspan fill="#7ee787">dalroot</tspan><tspan fill="#8b949e">:</tspan>
-    </text>
+    <!-- Output 1: Project list -->
+    <g class="l1">
+      <text x="40" y="116">
+        <tspan fill="#8b949e">drwxr-xr-x  dal  root </tspan>
+        <tspan fill="#58a6ff" font-weight="bold">antigravity-cleaner/</tspan>
+        <tspan fill="#e3b341">  ★ 350+  </tspan>
+        <tspan fill="#8b949e">[Offline Patch &amp; Environment Sanitation]</tspan>
+      </text>
+    </g>
 
-    <text x="60" y="140">
-      <tspan fill="#79c0ff">role</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#a5d6ff">"Systems &amp; Network Infrastructure Engineer"</tspan>
-    </text>
+    <g class="l2">
+      <text x="40" y="142">
+        <tspan fill="#8b949e">drwxr-xr-x  dal  root </tspan>
+        <tspan fill="#58a6ff" font-weight="bold">rex-protocol/</tspan>
+        <tspan fill="#7ee787">         sub-5ms </tspan>
+        <tspan fill="#8b949e">[Persistent WebSocket Infrastructure Control]</tspan>
+      </text>
+    </g>
 
-    <text x="60" y="165">
-      <tspan fill="#79c0ff">languages</tspan><tspan fill="#8b949e">: [</tspan><tspan fill="#ff7b72">Go</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ff7b72">Python</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ff7b72">TypeScript</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ff7b72">Dart</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ff7b72">Kotlin</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#ff7b72">Bash</tspan><tspan fill="#8b949e">]</tspan>
-    </text>
+    <g class="l3">
+      <text x="40" y="168">
+        <tspan fill="#8b949e">drwxr-xr-x  dal  root </tspan>
+        <tspan fill="#58a6ff" font-weight="bold">hawal/</tspan>
+        <tspan fill="#7ee787">                multiplex </tspan>
+        <tspan fill="#8b949e">[Zero-Dependency Tunnel Management Core]</tspan>
+      </text>
+    </g>
 
-    <text x="60" y="190">
-      <tspan fill="#79c0ff">runtimes</tspan><tspan fill="#8b949e">: [</tspan><tspan fill="#d2a8ff">Linux Kernel</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#d2a8ff">sing-box</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#d2a8ff">Docker</tspan><tspan fill="#8b949e">, </tspan><tspan fill="#d2a8ff">Android VpnService</tspan><tspan fill="#8b949e">]</tspan>
-    </text>
+    <g class="l4">
+      <text x="40" y="194">
+        <tspan fill="#8b949e">drwxr-xr-x  dal  root </tspan>
+        <tspan fill="#58a6ff" font-weight="bold">roozaneh-client/</tspan>
+        <tspan fill="#bc8cff">      sing-box  </tspan>
+        <tspan fill="#8b949e">[Layer-3 Android VpnService &amp; Desktop TUN]</tspan>
+      </text>
+    </g>
 
-    <text x="60" y="220">
-      <tspan fill="#79c0ff">focus_areas</tspan><tspan fill="#8b949e">:</tspan>
-    </text>
+    <g class="l5">
+      <text x="40" y="220">
+        <tspan fill="#8b949e">drwxr-xr-x  dal  root </tspan>
+        <tspan fill="#58a6ff" font-weight="bold">agentic-seo/</tspan>
+        <tspan fill="#bc8cff">          16-skills </tspan>
+        <tspan fill="#8b949e">[Multi-Agent Autonomous Technical Ecosystem]</tspan>
+      </text>
+    </g>
 
-    <text x="80" y="245">
-      <tspan fill="#8b949e">- </tspan><tspan fill="#f0883e">"Low-latency WebSockets with sub-5ms deterministic execution (REX)"</tspan>
-    </text>
+    <!-- Command 2: system stats -->
+    <g class="c2">
+      <text x="40" y="260">
+        <tspan fill="#38bdf8" font-weight="bold">➜ </tspan>
+        <tspan fill="#a78bfa" font-weight="bold">projects</tspan>
+        <tspan fill="#7dd3fc" font-weight="bold"> git:(main)</tspan>
+        <tspan fill="#f0f6fc"> cat /etc/dalroot.conf</tspan>
+      </text>
+    </g>
 
-    <text x="80" y="270">
-      <tspan fill="#8b949e">- </tspan><tspan fill="#f0883e">"Censorship-resilient multiplexing panels &amp; zero-dependency tunnels (Hawal)"</tspan>
-    </text>
-
-    <text x="80" y="295">
-      <tspan fill="#8b949e">- </tspan><tspan fill="#f0883e">"Cross-platform runtime recovery &amp; offline sanction bypassers (Antigravity Cleaner)"</tspan>
-    </text>
-
-    <text x="80" y="320">
-      <tspan fill="#8b949e">- </tspan><tspan fill="#f0883e">"Layer-3 transparent TUN clients on Android &amp; desktop (Roozaneh)"</tspan>
-    </text>
+    <!-- Output 2 -->
+    <g class="o2">
+      <text x="40" y="290">
+        <tspan fill="#79c0ff">PRIMARY_LANGUAGES</tspan><tspan fill="#8b949e">=</tspan><tspan fill="#a5d6ff">"Go, Python, TypeScript, Dart, Kotlin, Bash"</tspan>
+      </text>
+      <text x="40" y="315">
+        <tspan fill="#79c0ff">NETWORKING_CORE</tspan><tspan fill="#8b949e">=</tspan><tspan fill="#a5d6ff">"TUN/TAP, sing-box, gVisor netstack, WebSockets, WireGuard"</tspan>
+      </text>
+      <text x="40" y="340">
+        <tspan fill="#79c0ff">OPERATIONAL_FOCUS</tspan><tspan fill="#8b949e">=</tspan><tspan fill="#7ee787">"Censorship circumvention &amp; low-latency protocol engineering"</tspan>
+      </text>
+      <text x="40" y="375">
+        <tspan fill="#38bdf8" font-weight="bold">➜ </tspan>
+        <tspan fill="#a78bfa" font-weight="bold">projects</tspan>
+        <tspan fill="#7dd3fc" font-weight="bold"> git:(main)</tspan>
+        <tspan fill="#7ee787"> ready</tspan>
+        <tspan fill="#38bdf8" class="cursor"> █</tspan>
+      </text>
+    </g>
   </g>
 </svg>
