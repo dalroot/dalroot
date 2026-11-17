@@ -18,7 +18,7 @@
 <!-- Social & Support Badges -->
 [![Twitter](https://img.shields.io/badge/Twitter%20(X)-@dallsirvan-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/dallsirvan)
 [![Telegram Personal](https://img.shields.io/badge/Telegram-@dallrep-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/dallrep)
-[![Telegram Roozaneh](https://img.shields.io/badge/Roozaneh-@joinroozaneh-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/joinroozaneh)
+[![Roozaneh VPN](https://img.shields.io/badge/Roozaneh-Zero--Leak%20VPN-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/joinroozaneh)
 [![Donate](https://img.shields.io/badge/Support-Donate%20%E2%98%95-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/tawroot/antigravity-cleaner/blob/main/DONATE.md)
 
 </div>
@@ -95,7 +95,7 @@ I'm a systems & network engineer working at the intersection of network protocol
 ### 📫 Get in Touch & Support
 
 * **Direct Collaboration:** Open to discussions on low-latency protocol design, network tooling, and resilient systems. Reach out on Telegram via [@dallrep](https://t.me/dallrep) or Twitter [@dallsirvan](https://x.com/dallsirvan).
-* **Community:** Updates, releases, and network testing relays are shared on [@joinroozaneh](https://t.me/joinroozaneh).
+* **Roozaneh VPN Service:** Zero-leak, high-security & censorship-resilient VPN services, testing relays, and client updates on [@joinroozaneh](https://t.me/joinroozaneh).
 * **Support the Work:** If my open-source tools have saved you time, you can [support development via crypto / donations](https://github.com/tawroot/antigravity-cleaner/blob/main/DONATE.md).
 
 <br/>
