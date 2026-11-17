@@ -7,20 +7,33 @@
 
 <br/>
 
-<!-- Live Metrics & Community -->
-<p align="center">
-  <img src="https://img.shields.io/github/downloads/tawroot/antigravity-cleaner/total?style=for-the-badge&logo=github&color=0284c7&label=Total%20Downloads" height="28" alt="Downloads" />&nbsp;
-  <img src="https://img.shields.io/github/stars/dalroot?style=for-the-badge&logo=github&color=f59e0b&label=Repo%20Stars" height="28" alt="Stars" />&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=dalroot&style=for-the-badge&color=10b981&label=Profile%20Views" height="28" alt="Views" />&nbsp;
-  <img src="https://img.shields.io/badge/Public_Repos-30-6366f1?style=for-the-badge&logo=git&logoColor=white" height="28" alt="Repos" />
-</p>
+<!-- Metrics Badges (Native auto-sized, no distortion) -->
+[![Total Downloads](https://img.shields.io/github/downloads/tawroot/antigravity-cleaner/total?style=for-the-badge&logo=github&color=0284c7&label=Total%20Downloads)](https://github.com/tawroot/antigravity-cleaner)
+[![Repo Stars](https://img.shields.io/github/stars/dalroot?style=for-the-badge&logo=github&color=f59e0b&label=Repo%20Stars)](https://github.com/dalroot)
+[![Profile Views](https://komarev.com/ghpvc/?username=dalroot&style=for-the-badge&color=10b981&label=Profile%20Views)](https://github.com/dalroot)
+[![Public Repos](https://img.shields.io/badge/Public_Repos-30-6366f1?style=for-the-badge&logo=git&logoColor=white)](https://github.com/dalroot?tab=repositories)
 
-<p align="center">
-  <a href="https://x.com/dallsirvan" target="_blank"><img src="https://img.shields.io/badge/Twitter%20(X)-@dallsirvan-000000?style=for-the-badge&logo=x&logoColor=white" height="28" alt="Twitter" /></a>&nbsp;
-  <a href="https://t.me/dallrep" target="_blank"><img src="https://img.shields.io/badge/Telegram-@dallrep-229ED9?style=for-the-badge&logo=telegram&logoColor=white" height="28" alt="Telegram Personal" /></a>&nbsp;
-  <a href="https://t.me/joinroozaneh" target="_blank"><img src="https://img.shields.io/badge/Roozaneh-@joinroozaneh-0088cc?style=for-the-badge&logo=telegram&logoColor=white" height="28" alt="Telegram Roozaneh" /></a>
-</p>
+<br/>
 
+<!-- Social Badges -->
+[![Twitter](https://img.shields.io/badge/Twitter%20(X)-@dallsirvan-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/dallsirvan)
+[![Telegram Personal](https://img.shields.io/badge/Telegram-@dallrep-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/dallrep)
+[![Telegram Roozaneh](https://img.shields.io/badge/Roozaneh-@joinroozaneh-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/joinroozaneh)
+
+</div>
+
+<br/>
+
+---
+
+### 🐍 Contribution Activity
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dalroot/dalroot/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dalroot/dalroot/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/dalroot/dalroot/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
 </div>
 
 <br/>
@@ -61,20 +74,6 @@ dalroot:
 #### Platforms, Infrastructure & Tools
 <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=linux,docker,flutter,android,githubactions,git,postman&theme=dark" alt="Toolchains" /></a>
 
-</div>
-
-<br/>
-
----
-
-### 🐍 Contribution Activity
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dalroot/dalroot/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dalroot/dalroot/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/dalroot/dalroot/output/github-contribution-grid-snake.svg" width="100%" />
-  </picture>
 </div>
 
 <br/>
